@@ -199,7 +199,7 @@ function preload(){
 
 function setup() {
   createCanvas(640, 480);
-  introToon = new Toon(gamefont, introToonImgs);
+  // introToon = new Toon(gamefont, introToonImgs);
   mainstage = new MainStage(gamefont, dogAssets1, foodAssets1, dogAssets2, foodAssets2, dogAssets3, foodAssets3, baitAssets, playerAssets, lifeAssets, cardAssets, titleAssets, backgroundAssets, suddenAssets, soundEffects);
   mainstage.generateImage2();
 
