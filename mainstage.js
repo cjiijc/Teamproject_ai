@@ -626,7 +626,7 @@ class MainStage {
     goFever(){
         this.player.playerFever();
         this.feverTimer = new Timer(3000, true);
-        this.playTimer();
+        this.resetTimer();
 
         if (this.level < 4 || this.level == 5){
             this.returnLevel = this.level;
