@@ -4,7 +4,7 @@ class MainStage {
         this.score = 0;
         this.combo = 0;
         this.failCount = 0; // perfect 계산용
-        this.level = 4; // lev1=4개 베이글, lev2=4개 머핀, lev3=돌발과제, lev4=6개 베이글, lev5=방해요소, lev6=6개 머핀, level7= FEVER(4칸짜리), level8 = FEVER(6칸짜리)
+        this.level = 1; // lev1=4개 베이글, lev2=4개 머핀, lev3=돌발과제, lev4=6개 베이글, lev5=방해요소, lev6=6개 머핀, level7= FEVER(4칸짜리), level8 = FEVER(6칸짜리)
         this.returnLevel; // fever에서 돌아오도록
 
         this.actionEnd = false;  //키보드 입력 싹다 끝나면 true로 toggle 시켜줌
