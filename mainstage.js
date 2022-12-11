@@ -430,7 +430,7 @@ class MainStage {
             timerspd=4.2;
         }
         else if (this.level==4 || this.level==6) { //runtime 5sec
-            timerspd=1.45;
+            timerspd=1.4;
         }
         // if (this.level == 7 || this.level == 8){ //fever, runtime 4sec
         //     timerspd=1.8;
