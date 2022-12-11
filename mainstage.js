@@ -421,7 +421,7 @@ class MainStage {
         let timerspd;
        
         if (this.level== 1 || this.level==5 || this.level == 7 || this.level == 8) { //runtime 3sec
-            timerspd=2.4;
+            timerspd=2.3;
         }
         else if (this.level==2) { //runtime 2sec
             timerspd=3.5;
