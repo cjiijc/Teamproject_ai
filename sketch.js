@@ -1,3 +1,4 @@
+ver 1213
 // scene
 let currentScene = 'First'; // 확인용으로 튜토리얼은 스킵하고 진행
 
