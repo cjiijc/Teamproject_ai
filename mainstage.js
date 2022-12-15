@@ -82,7 +82,7 @@ class MainStage {
 
         // bgm
         this.bgm = soundEffects['bgm'];
-        this.bgmVolume = 0.08;
+        this.bgmVolume = 0.20;
 
         this.failSound = soundEffects['fail'];
         //sound Assets
@@ -152,7 +152,7 @@ class MainStage {
         this.feverEnter = false;
         this.setImageN();
         this.generateImage2();
-        this.bgmVolume = 0.08;        
+        this.bgmVolume = 0.20;        
         this.initVolume();
         // play bgm
         this.bgm.stop();
@@ -161,24 +161,24 @@ class MainStage {
      // Audio Mixing
      initVolume(){
         this.bgm.setVolume(this.bgmVolume);
-        this.failSound.setVolume(0.2);
+        this.failSound.setVolume(0.4);
         for(let i = 0; i < this.alarms.length; i++){
-            this.alarms[i].setVolume(0.3);
+            this.alarms[i].setVolume(0.7);
         }
         for(let i = 0; i < this.keys.length; i++){
-            this.keys[i].setVolume(0.2);
+            this.keys[i].setVolume(0.5);
         }
         for(let i = 0; i < this.fkeys.length; i++){
-            this.fkeys[i].setVolume(0.2);
+            this.fkeys[i].setVolume(0.5);
         }
         for(let i = 0; i < this.judgeSound.length; i++){
-            this.judgeSound[i].setVolume(0.3);
+            this.judgeSound[i].setVolume(0.7);
         }
         for(let i = 0; i < this.feverJudge.length; i++){
-            this.feverJudge[i].setVolume(0.2);
+            this.feverJudge[i].setVolume(0.5);
         }
         for(let i = 0; i < this.otherKeys.length; i++){
-            this.otherKeys[i].setVolume(0.2);
+            this.otherKeys[i].setVolume(0.5);
         }
     }
 
