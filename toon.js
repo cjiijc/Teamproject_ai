@@ -24,7 +24,7 @@ class Toon{
             this.introEnd = false;
             this.introBGM = soundEffects['introBGM'];
             this.trueBGM = soundEffects['trueBGM'];
-            this.bgmVolume = 0.08;
+            this.bgmVolume = 0.20;
 
         }
 
