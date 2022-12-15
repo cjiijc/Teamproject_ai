@@ -166,7 +166,7 @@ class MainStage {
             this.alarms[i].setVolume(0.7);
         }
         for(let i = 0; i < this.keys.length; i++){
-            this.keys[i].setVolume(0.5);
+            this.keys[i].setVolume(0.4);
         }
         for(let i = 0; i < this.fkeys.length; i++){
             this.fkeys[i].setVolume(0.5);
